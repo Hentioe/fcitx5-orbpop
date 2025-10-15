@@ -1,0 +1,8 @@
+[tools]
+"cargo:dprint" = "latest"
+
+[tasks.export]
+run = "org.inkscape.Inkscape --export-filename=OrbPop/panel.png OrbPop/panel.svg"
+
+[tasks.format]
+run = "dprint fmt"
